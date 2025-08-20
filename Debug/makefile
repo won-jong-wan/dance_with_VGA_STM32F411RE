@@ -60,8 +60,8 @@ all: main-build
 main-build: dance_with_VGA_STM32F411RE.elf secondary-outputs
 
 # Tool invocations
-dance_with_VGA_STM32F411RE.elf dance_with_VGA_STM32F411RE.map: $(OBJS) $(USER_OBJS) C:\Users\jonwo\STM32CubeIDE\workspace_1.19.0\dance_with_VGA_STM32F411RE\STM32F411RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "dance_with_VGA_STM32F411RE.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\jonwo\STM32CubeIDE\workspace_1.19.0\dance_with_VGA_STM32F411RE\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dance_with_VGA_STM32F411RE.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+dance_with_VGA_STM32F411RE.elf dance_with_VGA_STM32F411RE.map: $(OBJS) $(USER_OBJS) C:\Users\kccistc\Desktop\dance_with_VGA_STM32F411RE\STM32F411RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "dance_with_VGA_STM32F411RE.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\kccistc\Desktop\dance_with_VGA_STM32F411RE\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dance_with_VGA_STM32F411RE.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

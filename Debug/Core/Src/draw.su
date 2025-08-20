@@ -1,0 +1,15 @@
+../Core/Src/draw.c:148:6:draw_scaled_char	48	static
+../Core/Src/draw.c:191:6:draw_scaled_char_fast	64	static
+../Core/Src/draw.c:239:6:draw_scaled_char_memory_efficient	128	static
+../Core/Src/draw.c:284:16:get_char_font	16	static
+../Core/Src/draw.c:299:10:draw_char	40	static
+../Core/Src/draw.c:318:10:draw_string	32	static
+../Core/Src/draw.c:345:10:draw_string_wrapped	40	static
+../Core/Src/draw.c:393:10:draw_string_centered	40	static
+../Core/Src/draw.c:417:10:draw_string_right_aligned	40	static
+../Core/Src/draw.c:440:6:clear_region	24	static
+../Core/Src/draw.c:457:6:print_fb_region	48	static
+../Core/Src/draw.c:483:6:print_fb_scaled	40	static
+../Core/Src/draw.c:525:6:print_fb_simple	40	static
+../Core/Src/draw.c:541:6:example_usage	8	static
+../Core/Src/draw.c:588:6:string_demo	16	static
